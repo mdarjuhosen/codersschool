@@ -1028,7 +1028,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: #ffffff;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1846,7 +1846,7 @@ section {
 
 @media (max-width: 576px) {
   .section-heading {
-      font-size: 1.8rem;
+      font-size: 17px;
   }
 
   .section-subheading {
@@ -1855,6 +1855,7 @@ section {
 
   .section-paragraph {
       font-size: 0.9rem;
+      text-align: justify;
   }
 
   .support-badge {
@@ -1948,11 +1949,13 @@ section {
 
 .achievement-card {
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   background-color: #f8f9fa;
   border: 1px solid #ddd;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
+  border-top: 4px solid #03a9f4;
+  border-bottom: 4px solid #03a9f4;
 }
 
 .achievement-card:hover {
