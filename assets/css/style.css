@@ -337,7 +337,7 @@ a:hover {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  /* height: 80vh; */
   /* background: #37517e; */
   /* background: linear-gradient(to right bottom, #00c4cc, #000000); */
   /* background: linear-gradient(to right bottom, #03A9F4, #000000); */
@@ -412,7 +412,7 @@ a:hover {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    /* height: 100vh; */
     text-align: center;
   }
 
@@ -470,7 +470,7 @@ a:hover {
 /* -------------------------- */
 @media (max-width: 400px) {
   #hero {
-    height: 135vh;
+    /* height: 135vh; */
     text-align: center;
   }
 
@@ -489,7 +489,7 @@ a:hover {
 @media (max-width: 393px) {
 
   #hero {
-    height: 115vh;
+    /* height: 115vh; */
     text-align: center;
 }
 
