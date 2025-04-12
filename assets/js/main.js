@@ -1,3 +1,27 @@
+  function toggleAccordion(header) {
+    const content = header.nextElementSibling;
+    const icon = header.querySelector('.accordion-icon');
+
+    // Collapse all others (optional)
+    document.querySelectorAll('.accordion-content').forEach((el) => {
+      if (el !== content) {
+        el.style.maxHeight = null;
+        el.classList.remove("open");
+        el.previousElementSibling.querySelector('.accordion-icon').textContent = '+';
+      }
+    });
+
+    // Toggle current
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+      content.classList.remove("open");
+      icon.textContent = '+';
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+      content.classList.add("open");
+      icon.textContent = '-';
+    }
+  }
 
 
 (function() {
