@@ -341,8 +341,8 @@ a:hover {
   /* background: #37517e; */
   /* background: linear-gradient(to right bottom, #00c4cc, #000000); */
   /* background: linear-gradient(to right bottom, #03A9F4, #000000); */
-
-    background: url(../img/pattern-05.svg) top / 200% repeat, linear-gradient(91.83deg, #0B1C33, #0B1C33);
+  background: url(../img/pattern-05.svg), linear-gradient(91.83deg, #0B1C33, #0B1C33);
+  /* background: url(../img/pattern-05.svg) top / 200% repeat, linear-gradient(91.83deg, #0B1C33, #0B1C33); */
 
 }
 
@@ -1690,7 +1690,7 @@ section {
 
 .section-heading {
   font-size: 28px;
-  color: #d32f2f;
+  color: #000000;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1708,8 +1708,9 @@ section {
 .section-paragraph {
   font-size: 1.125rem;
   margin-top: 20px;
-  color: #555;
+  color: #000000;
   animation: fadeIn 1s ease-in-out 1s;
+  text-align: justify;
 }
 
 .list-item {
