@@ -2501,12 +2501,12 @@ input[type="checkbox"]{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-weight: bold;
+  font-weight: 600;
   transition: background 0.3s;
 }
 
 .accordion-header:hover {
-  background-color: #eaeaea;
+  background-color: #ffffff;
 }
 
 .accordion-icon {
@@ -2523,7 +2523,8 @@ input[type="checkbox"]{
 }
 
 .accordion-content.open {
-  padding: 15px 20px;
+  /* padding: 15px 20px; */
+  padding: 5px 20px;
 }
 
 /* @media (max-width: 600px) {
